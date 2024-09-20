@@ -19,7 +19,7 @@ on:
         type: string
       deploy_format:
         description: "Deployment format"
-        default: rootfull
+        default: rootless
         required: true
         type: choice
         options:
